@@ -6,7 +6,7 @@ const restaurants = require("./restaurants.json");
 
 app.use(cors());
 
-app.get("/api", (req, res) => {
+app.get("/restaurants", (req, res) => {
     const search = req.query.search;
     let filteredRestaurants = restaurants;
 
