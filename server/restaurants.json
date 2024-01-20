@@ -1,0 +1,177 @@
+[
+    {
+        "name": "Lively Bar 1",
+        "address": "Address 1",
+        "tags": ["Chinese"],
+        "date": "06/26/2007",
+        "time": { "open": "9:00", "close": "20:00" }
+    },
+    {
+        "name": "Delicious Grill 2",
+        "address": "Address 2",
+        "tags": ["Sushi", "Vegetarian"],
+        "date": "11/20/1996",
+        "time": { "open": "11:00", "close": "21:00" }
+    },
+    {
+        "name": "Modern Diner 3",
+        "address": "Address 3",
+        "tags": ["Steakhouse"],
+        "date": "10/19/2014",
+        "time": { "open": "11:00", "close": "21:00" }
+    },
+    {
+        "name": "Traditional Steakhouse 4",
+        "address": "Address 4",
+        "tags": ["Vegetarian", "Mexican"],
+        "date": "08/12/2013",
+        "time": { "open": "7:00", "close": "22:00" }
+    },
+    {
+        "name": "Traditional Diner 5",
+        "address": "Address 5",
+        "tags": ["Chinese", "Indian"],
+        "date": "06/04/1999",
+        "time": { "open": "10:00", "close": "23:00" }
+    },
+    {
+        "name": "Savory Bistro 6",
+        "address": "Address 6",
+        "tags": ["Vegetarian"],
+        "date": "03/03/2004",
+        "time": { "open": "6:00", "close": "17:00" }
+    },
+    {
+        "name": "Exotic Bistro 7",
+        "address": "Address 7",
+        "tags": ["Fast Food", "Mexican", "Vegetarian"],
+        "date": "11/26/1997",
+        "time": { "open": "10:00", "close": "18:00" }
+    },
+    {
+        "name": "Traditional Eatery 8",
+        "address": "Address 8",
+        "tags": ["Sushi", "Italian", "Chinese", "Indian"],
+        "date": "03/23/1995",
+        "time": { "open": "10:00", "close": "22:00" }
+    },
+    {
+        "name": "Traditional Steakhouse 9",
+        "address": "Address 9",
+        "tags": ["Indian", "Vegan", "Cafe", "Steakhouse"],
+        "date": "03/25/2016",
+        "time": { "open": "6:00", "close": "15:00" }
+    },
+    {
+        "name": "Charming Tavern 10",
+        "address": "Address 10",
+        "tags": ["Cafe", "Mexican"],
+        "date": "03/26/2022",
+        "time": { "open": "6:00", "close": "17:00" }
+    },
+    {
+        "name": "Traditional Diner 11",
+        "address": "Address 11",
+        "tags": ["Cafe", "Dessert", "Sushi", "Vegetarian"],
+        "date": "02/12/2005",
+        "time": { "open": "8:00", "close": "20:00" }
+    },
+    {
+        "name": "Savory Eatery 12",
+        "address": "Address 12",
+        "tags": ["Dessert"],
+        "date": "08/29/2022",
+        "time": { "open": "9:00", "close": "15:00" }
+    },
+    {
+        "name": "Charming Diner 13",
+        "address": "Address 13",
+        "tags": ["Indian", "Dessert", "Chinese", "Vegan"],
+        "date": "06/12/2009",
+        "time": { "open": "6:00", "close": "18:00" }
+    },
+    {
+        "name": "Modern Grill 14",
+        "address": "Address 14",
+        "tags": ["Dessert", "Steakhouse", "Seafood", "Italian"],
+        "date": "11/19/2016",
+        "time": { "open": "8:00", "close": "19:00" }
+    },
+    {
+        "name": "Exotic Bistro 15",
+        "address": "Address 15",
+        "tags": ["Indian", "Steakhouse", "Vegetarian"],
+        "date": "01/14/1997",
+        "time": { "open": "11:00", "close": "16:00" }
+    },
+    {
+        "name": "Charming Diner 16",
+        "address": "Address 16",
+        "tags": ["Steakhouse"],
+        "date": "09/02/2022",
+        "time": { "open": "6:00", "close": "18:00" }
+    },
+    {
+        "name": "Exotic Bar 17",
+        "address": "Address 17",
+        "tags": ["Dessert", "Cafe", "Indian", "Sushi"],
+        "date": "05/20/1997",
+        "time": { "open": "8:00", "close": "16:00" }
+    },
+    {
+        "name": "Tasty Bar 18",
+        "address": "Address 18",
+        "tags": ["Indian"],
+        "date": "04/13/1996",
+        "time": { "open": "11:00", "close": "23:00" }
+    },
+    {
+        "name": "Exotic Bistro 19",
+        "address": "Address 19",
+        "tags": ["Vegetarian", "Indian"],
+        "date": "12/24/1991",
+        "time": { "open": "6:00", "close": "20:00" }
+    },
+    {
+        "name": "Delicious Bistro 20",
+        "address": "Address 20",
+        "tags": ["Dessert", "Indian", "Sushi"],
+        "date": "04/04/1998",
+        "time": { "open": "10:00", "close": "23:00" }
+    },
+    {
+        "name": "Delicious Bistro 21",
+        "address": "Address 21",
+        "tags": ["Fast Food", "Seafood", "Indian", "Vegan"],
+        "date": "01/17/2017",
+        "time": { "open": "9:00", "close": "16:00" }
+    },
+    {
+        "name": "Cozy Pizzeria 22",
+        "address": "Address 22",
+        "tags": ["Chinese", "Cafe"],
+        "date": "03/28/2006",
+        "time": { "open": "8:00", "close": "19:00" }
+    },
+    {
+        "name": "Traditional Eatery 23",
+        "address": "Address 23",
+        "tags": ["Vegan", "Steakhouse", "Dessert", "Indian"],
+        "date": "02/05/2007",
+        "time": { "open": "10:00", "close": "17:00" }
+    },
+    {
+        "name": "Traditional Bistro 24",
+        "address": "Address 24",
+        "tags": ["Chinese", "Seafood"],
+        "date": "04/01/2015",
+        "time": { "open": "8:00", "close": "17:00" }
+    },
+    {
+        "name": "Savory Grill 25",
+        "address": "Address 25",
+        "tags": ["Italian"],
+        "date": "03/02/2021",
+        "time": { "open": "7:00", "close": "15:00" }
+    }
+]
