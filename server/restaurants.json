@@ -60,7 +60,7 @@
         "address": "Address 9",
         "tags": ["Indian", "Vegan", "Cafe", "Steakhouse"],
         "date": "03/25/2016",
-        "time": { "open": "6:00", "close": "15:00" }
+        "time": { "open": "0:00", "close": "6:00" }
     },
     {
         "name": "Charming Tavern 10",
@@ -109,7 +109,7 @@
         "address": "Address 16",
         "tags": ["Steakhouse"],
         "date": "09/02/2022",
-        "time": { "open": "6:00", "close": "18:00" }
+        "time": { "open": "0:00", "close": "06:00" }
     },
     {
         "name": "Exotic Bar 17",

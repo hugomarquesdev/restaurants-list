@@ -17,26 +17,27 @@ const Wrapper = styled.div`
     }
 `;
 
-const Grid = ({ restaurants }: any) => {
+type Restaurant = {
+    name: string;
+    address: string;
+    time: {
+        open: string;
+        close: string;
+    };
+    date: string;
+    tags: Array<string>;
+};
+
+type Restaurants = {
+    restaurants: Restaurant[];
+};
+
+const Grid = ({ restaurants }: Restaurants) => {
     return (
         <Wrapper>
-            {restaurants?.map(
-                (
-                    restaurant: {
-                        name: string;
-                        address: string;
-                        time: {
-                            open: string;
-                            close: string;
-                        };
-                        date: string;
-                        tags: any;
-                    },
-                    key: number
-                ) => (
-                    <Card restaurant={restaurant} key={key} />
-                )
-            )}
+            {restaurants?.map((restaurant: Restaurant, key: number) => (
+                <Card restaurant={restaurant} key={key} />
+            ))}
 
             {restaurants?.length === 0 && <h2>No results</h2>}
         </Wrapper>

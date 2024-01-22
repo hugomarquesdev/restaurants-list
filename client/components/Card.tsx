@@ -48,26 +48,34 @@ const SmallerP = styled.p`
     margin-right: 0.3rem;
 `;
 
-const Card = ({ restaurant }: any) => {
+type Restaurant = {
+    restaurant: {
+        name: string;
+        address: string;
+        time: {
+            open: string;
+            close: string;
+        };
+        date: string;
+        tags: string[];
+    };
+};
+
+const Card = ({ restaurant }: Restaurant) => {
+    const isOpen = isRestaurantOpen(
+        restaurant.time.open,
+        restaurant.time.close
+    );
+
     return (
         <>
             {restaurant && (
-                <Wrapper
-                    open={isRestaurantOpen(
-                        restaurant.time.open,
-                        restaurant.time.close
-                    )}
-                >
+                <Wrapper open={isOpen}>
                     <Head>
                         <h2>{restaurant.name}</h2>
                         <p>
                             <span className="dot"></span>
-                            {isRestaurantOpen(
-                                restaurant.time.open,
-                                restaurant.time.close
-                            )
-                                ? "Open"
-                                : "Closed"}
+                            {isOpen ? "Open" : "Closed"}
                         </p>
                     </Head>
                     <p

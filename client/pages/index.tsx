@@ -50,16 +50,21 @@ const Home = () => {
     const debouncedSearch = useDebounce(search, 500);
 
     useEffect(() => {
-        fetch(`http://localhost:8000/restaurants?search=${debouncedSearch}`)
-            .then((response) => response.json())
-            .then((data) => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch(
+                    `http://localhost:8000/restaurants?search=${debouncedSearch}`
+                );
+                const data = await response.json();
                 setRestaurants(data.restaurants);
                 setError(false);
-            })
-            .catch((error) => {
+            } catch (error) {
                 setError(true);
                 console.log(error);
-            });
+            }
+        };
+
+        fetchData();
     }, [debouncedSearch]);
 
     return (
@@ -68,17 +73,17 @@ const Home = () => {
             <main className={`${inter.className}`}>
                 <Wrapper>
                     {error && (
-                        <Error>
+                        <Error data-testid="network-error">
                             There was a network error. Please try again later.
                         </Error>
                     )}
                     <h1>resOS 🍽️</h1>
-
                     <Input
                         type="text"
                         value={search}
                         onChange={(e: any) => setSearch(e.target.value)}
                         placeholder="Search restaurant by name, address or tag..."
+                        data-testid="input"
                     />
                     <Grid restaurants={restaurants} />
                 </Wrapper>
