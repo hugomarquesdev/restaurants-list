@@ -17,7 +17,7 @@ This is a web application that fetches restaurant data from a Node.js backend bu
 Before running the app, make sure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
 
 ### Backend (Server)
-(Make sure to keep this server running to test the app)
+(Make sure to keep this server running to run the app)
 
 ```bash
 cd server
